@@ -8,4 +8,6 @@ mvn clean install
 - fastDFS的配置文件放在classpath:conf/fdfs_client.conf下，根据实际进行调整。
 - 前端页面访问入口：localhost:8080/Spring-fastdfs/fileupload
 - 文件删除接口：localhost:8080/Spring-fastdfs/delete?fileid=xxxxxx
-- 若要下载文件，直接根据FastDFS服务器Nginx模块的配置进行访问即可。
+- 若要下载文件，直接根据FastDFS服务器Nginx模块的配置进行访问即可
+- FastDFSClient类对原生的API进行了再次封装，使用起来更方便。
+
